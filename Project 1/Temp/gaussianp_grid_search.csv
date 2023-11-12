@@ -1,0 +1,100 @@
+,alpha,kernel,score
+0,1e-10,"Matern(length_scale=1, nu=1.5)",0.40640088297120897
+1,1e-10,"Matern(length_scale=1, nu=0.5)",0.49302720537969014
+2,1e-10,"Matern(length_scale=1, nu=2.5)",0.34192351269699534
+3,1e-10,"Matern(length_scale=1, nu=1.5) + Matern(length_scale=1, nu=0.5)",0.5198040260674469
+4,1e-10,"Matern(length_scale=1, nu=1.5) + RBF(length_scale=1)",0.5107988252955812
+5,1e-10,"Matern(length_scale=1, nu=0.5) + RBF(length_scale=1)",0.5083980876940082
+6,1e-10,"Matern(length_scale=1, nu=2.5) + RBF(length_scale=1)",0.5150592343101729
+7,1e-10,"Matern(length_scale=1, nu=1.5) * RBF(length_scale=1)",0.406398207824003
+8,1e-10,"Matern(length_scale=1, nu=0.5) * RBF(length_scale=1)",0.4930258956107264
+9,1e-10,"Matern(length_scale=1, nu=2.5) * RBF(length_scale=1)",0.3419215122087786
+10,1e-10,"Matern(length_scale=1, nu=1.5) * Matern(length_scale=1, nu=0.5)",0.4930234428535831
+11,2e-10,"Matern(length_scale=1, nu=1.5)",0.4064008830417468
+12,2e-10,"Matern(length_scale=1, nu=0.5)",0.4930272053856316
+13,2e-10,"Matern(length_scale=1, nu=2.5)",0.34192351277582766
+14,2e-10,"Matern(length_scale=1, nu=1.5) + Matern(length_scale=1, nu=0.5)",0.5198040261020719
+15,2e-10,"Matern(length_scale=1, nu=1.5) + RBF(length_scale=1)",0.5107988165211574
+16,2e-10,"Matern(length_scale=1, nu=0.5) + RBF(length_scale=1)",0.5083980859567541
+17,2e-10,"Matern(length_scale=1, nu=2.5) + RBF(length_scale=1)",0.5150596059026895
+18,2e-10,"Matern(length_scale=1, nu=1.5) * RBF(length_scale=1)",0.4063988661463284
+19,2e-10,"Matern(length_scale=1, nu=0.5) * RBF(length_scale=1)",0.4930258614759758
+20,2e-10,"Matern(length_scale=1, nu=2.5) * RBF(length_scale=1)",0.34192155295468146
+21,2e-10,"Matern(length_scale=1, nu=1.5) * Matern(length_scale=1, nu=0.5)",0.49302723248763736
+22,5e-10,"Matern(length_scale=1, nu=1.5)",0.40640088316753803
+23,5e-10,"Matern(length_scale=1, nu=0.5)",0.49302720540345657
+24,5e-10,"Matern(length_scale=1, nu=2.5)",0.3419235130123228
+25,5e-10,"Matern(length_scale=1, nu=1.5) + Matern(length_scale=1, nu=0.5)",0.5198040262140415
+26,5e-10,"Matern(length_scale=1, nu=1.5) + RBF(length_scale=1)",0.5107988150666964
+27,5e-10,"Matern(length_scale=1, nu=0.5) + RBF(length_scale=1)",0.5083980811559661
+28,5e-10,"Matern(length_scale=1, nu=2.5) + RBF(length_scale=1)",0.5150597330518656
+29,5e-10,"Matern(length_scale=1, nu=1.5) * RBF(length_scale=1)",0.40640012858530294
+30,5e-10,"Matern(length_scale=1, nu=0.5) * RBF(length_scale=1)",0.49302572371517084
+31,5e-10,"Matern(length_scale=1, nu=2.5) * RBF(length_scale=1)",0.3419215720463661
+32,5e-10,"Matern(length_scale=1, nu=1.5) * Matern(length_scale=1, nu=0.5)",0.4930250362013954
+33,1e-09,"Matern(length_scale=1, nu=1.5)",0.4064008833771899
+34,1e-09,"Matern(length_scale=1, nu=0.5)",0.4930272054331649
+35,1e-09,"Matern(length_scale=1, nu=2.5)",0.3419235134064774
+36,1e-09,"Matern(length_scale=1, nu=1.5) + Matern(length_scale=1, nu=0.5)",0.5198040264319559
+37,1e-09,"Matern(length_scale=1, nu=1.5) + RBF(length_scale=1)",0.5107988130307359
+38,1e-09,"Matern(length_scale=1, nu=0.5) + RBF(length_scale=1)",0.5083980744020452
+39,1e-09,"Matern(length_scale=1, nu=2.5) + RBF(length_scale=1)",0.5150595366581868
+40,1e-09,"Matern(length_scale=1, nu=1.5) * RBF(length_scale=1)",0.40640014291277204
+41,1e-09,"Matern(length_scale=1, nu=0.5) * RBF(length_scale=1)",0.4930272425591518
+42,1e-09,"Matern(length_scale=1, nu=2.5) * RBF(length_scale=1)",0.3419208583791681
+43,1e-09,"Matern(length_scale=1, nu=1.5) * Matern(length_scale=1, nu=0.5)",0.4930272302022848
+44,2e-09,"Matern(length_scale=1, nu=1.5)",0.4064008837964927
+45,2e-09,"Matern(length_scale=1, nu=0.5)",0.49302720549258183
+46,2e-09,"Matern(length_scale=1, nu=2.5)",0.34192351419476663
+47,2e-09,"Matern(length_scale=1, nu=1.5) + Matern(length_scale=1, nu=0.5)",0.5198040270304688
+48,2e-09,"Matern(length_scale=1, nu=1.5) + RBF(length_scale=1)",0.5107988101275402
+49,2e-09,"Matern(length_scale=1, nu=0.5) + RBF(length_scale=1)",0.5083980647136054
+50,2e-09,"Matern(length_scale=1, nu=2.5) + RBF(length_scale=1)",0.5150596026485517
+51,2e-09,"Matern(length_scale=1, nu=1.5) * RBF(length_scale=1)",0.40640017248301363
+52,2e-09,"Matern(length_scale=1, nu=0.5) * RBF(length_scale=1)",0.4930272707791025
+53,2e-09,"Matern(length_scale=1, nu=2.5) * RBF(length_scale=1)",0.3419187582891715
+54,2e-09,"Matern(length_scale=1, nu=1.5) * Matern(length_scale=1, nu=0.5)",0.4930272317364716
+55,5e-09,"Matern(length_scale=1, nu=1.5)",0.4064008850543974
+56,5e-09,"Matern(length_scale=1, nu=0.5)",0.49302720567083097
+57,5e-09,"Matern(length_scale=1, nu=2.5)",0.34192351655956293
+58,5e-09,"Matern(length_scale=1, nu=1.5) + Matern(length_scale=1, nu=0.5)",0.519804031103704
+59,5e-09,"Matern(length_scale=1, nu=1.5) + RBF(length_scale=1)",0.5107988080202613
+60,5e-09,"Matern(length_scale=1, nu=0.5) + RBF(length_scale=1)",0.5083976063184001
+61,5e-09,"Matern(length_scale=1, nu=2.5) + RBF(length_scale=1)",0.5150595872057082
+62,5e-09,"Matern(length_scale=1, nu=1.5) * RBF(length_scale=1)",0.4064001798635224
+63,5e-09,"Matern(length_scale=1, nu=0.5) * RBF(length_scale=1)",0.4930254403898854
+64,5e-09,"Matern(length_scale=1, nu=2.5) * RBF(length_scale=1)",0.34192384897008116
+65,5e-09,"Matern(length_scale=1, nu=1.5) * Matern(length_scale=1, nu=0.5)",0.49302694558059434
+66,1e-08,"Matern(length_scale=1, nu=1.5)",0.4064008871508936
+67,1e-08,"Matern(length_scale=1, nu=0.5)",0.493027205967915
+68,1e-08,"Matern(length_scale=1, nu=2.5)",0.34192352050076735
+69,1e-08,"Matern(length_scale=1, nu=1.5) + Matern(length_scale=1, nu=0.5)",0.5198040238263149
+70,1e-08,"Matern(length_scale=1, nu=1.5) + RBF(length_scale=1)",0.510798820816788
+71,1e-08,"Matern(length_scale=1, nu=0.5) + RBF(length_scale=1)",0.5083987014913998
+72,1e-08,"Matern(length_scale=1, nu=2.5) + RBF(length_scale=1)",0.515059740670435
+73,1e-08,"Matern(length_scale=1, nu=1.5) * RBF(length_scale=1)",0.4064000859883638
+74,1e-08,"Matern(length_scale=1, nu=0.5) * RBF(length_scale=1)",0.49302536649090706
+75,1e-08,"Matern(length_scale=1, nu=2.5) * RBF(length_scale=1)",0.34192365263510316
+76,1e-08,"Matern(length_scale=1, nu=1.5) * Matern(length_scale=1, nu=0.5)",0.493027135823468
+77,2e-08,"Matern(length_scale=1, nu=1.5)",0.40640089134383617
+78,2e-08,"Matern(length_scale=1, nu=0.5)",0.4930272065620832
+79,2e-08,"Matern(length_scale=1, nu=2.5)",0.34192352838298434
+80,2e-08,"Matern(length_scale=1, nu=1.5) + Matern(length_scale=1, nu=0.5)",0.5198040288566289
+81,2e-08,"Matern(length_scale=1, nu=1.5) + RBF(length_scale=1)",0.5107988380622276
+82,2e-08,"Matern(length_scale=1, nu=0.5) + RBF(length_scale=1)",0.5083980370648508
+83,2e-08,"Matern(length_scale=1, nu=2.5) + RBF(length_scale=1)",0.5150596480720204
+84,2e-08,"Matern(length_scale=1, nu=1.5) * RBF(length_scale=1)",0.4064003781240406
+85,2e-08,"Matern(length_scale=1, nu=0.5) * RBF(length_scale=1)",0.4930259833875209
+86,2e-08,"Matern(length_scale=1, nu=2.5) * RBF(length_scale=1)",0.3419204908147449
+87,2e-08,"Matern(length_scale=1, nu=1.5) * Matern(length_scale=1, nu=0.5)",0.49302679566548235
+88,5e-08,"Matern(length_scale=1, nu=1.5)",0.4064009039222981
+89,5e-08,"Matern(length_scale=1, nu=0.5)",0.49302720834459957
+90,5e-08,"Matern(length_scale=1, nu=2.5)",0.341923552029139
+91,5e-08,"Matern(length_scale=1, nu=1.5) + Matern(length_scale=1, nu=0.5)",0.5198040973347446
+92,5e-08,"Matern(length_scale=1, nu=1.5) + RBF(length_scale=1)",0.5107988106418728
+93,5e-08,"Matern(length_scale=1, nu=0.5) + RBF(length_scale=1)",0.5083980520655565
+94,5e-08,"Matern(length_scale=1, nu=2.5) + RBF(length_scale=1)",0.5150595608389404
+95,5e-08,"Matern(length_scale=1, nu=1.5) * RBF(length_scale=1)",0.40640011684215693
+96,5e-08,"Matern(length_scale=1, nu=0.5) * RBF(length_scale=1)",0.49302546631357524
+97,5e-08,"Matern(length_scale=1, nu=2.5) * RBF(length_scale=1)",0.3419233751285602
+98,5e-08,"Matern(length_scale=1, nu=1.5) * Matern(length_scale=1, nu=0.5)",0.4930272541458393
