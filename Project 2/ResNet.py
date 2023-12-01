@@ -27,9 +27,9 @@ class Residual_Block(nn.Module):
         return output
 
 
-class MyModel(nn.Module):
+class ResNet(nn.Module):
     def __init__(self, input_channels: int = 1, output_features: int = 32, output_dim: int = 4):
-        super(MyModel, self).__init__()
+        super(ResNet, self).__init__()
 
         self.layer_1 = nn.Sequential( # 未使用残差的CNN
             nn.Conv1d(input_channels, 64, kernel_size=16, stride=2),
@@ -51,7 +51,7 @@ class MyModel(nn.Module):
         self.layer_3 = nn.Sequential( # BiLSTM
             nn.BatchNorm1d(512), 
             nn.ReLU(), 
-            nn.LSTM(512, 256, 1, batch_first=True, bidirectional=True), 
+            nn.LSTM(12, 256, 1, batch_first=True, bidirectional=True), 
         )
 
         self.layer_4 = nn.Sequential( # 解析为32维向量
