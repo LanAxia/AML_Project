@@ -38,25 +38,27 @@ class ResNet(nn.Module):
         )
 
         self.layer_2 = nn.Sequential( # 8组残差视觉网络
-            Residual_Block(64, 64, kernel_size=17, stride=2, padding=8), 
-            Residual_Block(64, 64, kernel_size=17, stride=2, padding=8), 
-            Residual_Block(64, 128, kernel_size=17, stride=2, padding=8), 
-            Residual_Block(128, 128, kernel_size=17, stride=2, padding=8), 
-            Residual_Block(128, 256, kernel_size=17, stride=2, padding=8), 
-            Residual_Block(256, 256, kernel_size=17, stride=2, padding=8), 
-            Residual_Block(256, 512, kernel_size=17, stride=2, padding=8), 
-            Residual_Block(512, 512, kernel_size=17, stride=2, padding=8), 
+            Residual_Block(64, 64, kernel_size=7, stride=2, padding=3), 
+            Residual_Block(64, 64, kernel_size=7, stride=1, padding=3), 
+            Residual_Block(64, 128, kernel_size=7, stride=2, padding=3), 
+            Residual_Block(128, 128, kernel_size=7, stride=1, padding=3), 
+            Residual_Block(128, 256, kernel_size=7, stride=2, padding=3), 
+            Residual_Block(256, 256, kernel_size=7, stride=1, padding=3), 
+            Residual_Block(256, 512, kernel_size=7, stride=2, padding=3), 
+            Residual_Block(512, 512, kernel_size=7, stride=1, padding=3), 
+            Residual_Block(512, 1024, kernel_size=7, stride=2, padding=3), 
+            Residual_Block(1024, 1024, kernel_size=7, stride=1, padding=3), 
         )
 
         self.layer_3 = nn.Sequential( # BiLSTM
-            nn.BatchNorm1d(512), 
+            nn.BatchNorm1d(1024), 
             nn.ReLU(), 
-            nn.LSTM(12, 256, 1, batch_first=True, bidirectional=True), 
+            nn.LSTM(94, 128, 1, batch_first=True, bidirectional=True), 
         )
 
         self.layer_4 = nn.Sequential( # 解析为32维向量
             nn.Dropout(0.5), 
-            nn.Linear(512, output_features), 
+            nn.Linear(256, output_features), 
         )
 
         self.layer_5 = nn.Sequential( # 
