@@ -79,10 +79,10 @@ class UNet(nn.Module):
         self.down_model_2 = DownModel(128, 256)
         self.down_model_3 = DownModel(256, 512)
         self.down_model_4 = DownModel(512, 1024 // factor)
-        self.up_model_1 = UpModel(1024, 512 // factor, bilinear=bilinear)
-        self.up_model_2 = UpModel(512, 256 // factor, bilinear=bilinear)
-        self.up_model_3 = UpModel(256, 128 // factor, bilinear=bilinear)
-        self.up_model_4 = UpModel(128, 64, bilinear=bilinear)
+        self.up_model_1 = UpModel(1024, 512 // factor, bilinear=self.bilinear)
+        self.up_model_2 = UpModel(512, 256 // factor, bilinear=self.bilinear)
+        self.up_model_3 = UpModel(256, 128 // factor, bilinear=self.bilinear)
+        self.up_model_4 = UpModel(128, 64, bilinear=self.bilinear)
         self.output_layer = OutConv(64, out_channels)
     
     def forward(self, x):
