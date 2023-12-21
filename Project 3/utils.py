@@ -20,6 +20,7 @@ def save_zipped_pickle(obj, filename):
     with gzip.open(filename, 'wb') as f:
         pickle.dump(obj, f, 2)
 
+
 def single2tensor4(img):
     return torch.from_numpy(np.ascontiguousarray(img)).permute(2, 0, 1).float().unsqueeze(0)
 
